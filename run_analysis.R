@@ -5,13 +5,11 @@
 ## 4. Appropriately labels the data set with descriptive activity names.
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-if (!require("data.table")) {
-  install.packages("data.table")
-}
 
-if (!require("reshape2")) {
-  install.packages("reshape2")
-}
+##In the beginning, make sure the working directory has been set to the path of file "getdata-projectfiles-UCI HAR 
+## Dataset"
+
+##packages "data.table" and "reshape2" are required for this code. They must be installed before start running.
 
 require("data.table")
 require("reshape2")
